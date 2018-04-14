@@ -1,0 +1,81 @@
+/* styles.css */
+html,
+body{
+	height: 100%;
+}
+
+/* cover */
+
+#cover{
+	background-image: url(background.png);
+	background-size: cover;
+	color: white;
+	height: 70%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+
+}
+#cover-caption{
+	width: 100%;
+}
+#nav-main{
+
+    width: 100%;
+}
+#form-inline{
+	width: 100%;
+}
+#login{
+	font-size: 20px; 
+	color:red;
+}
+#newform{
+	background-image: url(background.png);
+	background-size: cover;
+	color: white;
+	height: 100%;
+}
+#newgroup{
+	width: 90%;
+	float: center;
+	padding: 80px 200px;
+
+}
+#navfront{
+	font-size: 20px;
+	color: white;
+}
+#nav-donor{
+	font-size: 20px;
+	color:red;
+}
+#SubmitButton{
+	float: right;
+}
+#headDonor{
+	text-align: center;
+	float: center;
+}
+#head2{
+	font-weight: bold;
+}
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    width: 35%;
+}
+
+#customers tr:nth-child(even){background-color: black; 
+}
+
+#customers tr:hover {background-color: green;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: gray;
+    color: white;
+}
