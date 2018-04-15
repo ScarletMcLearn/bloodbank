@@ -10,7 +10,7 @@ body{
 	background-image: url(background.png);
 	background-size: cover;
 	color: white;
-	height: 70%;
+	height: 80%;
 	text-align: center;
 	display: flex;
 	align-items: center;
@@ -34,7 +34,7 @@ body{
 	background-image: url(background.png);
 	background-size: cover;
 	color: white;
-	height: 100%;
+	height: 200%;
 }
 #newgroup{
 	width: 90%;
@@ -78,4 +78,10 @@ body{
     text-align: left;
     background-color: gray;
     color: white;
+}
+#set{
+	width: 90%;
+	float: center;
+	padding: 80px 200px;
+
 }
