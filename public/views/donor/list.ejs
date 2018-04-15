@@ -1,0 +1,10 @@
+
+<h1>Donor List</h1>
+<% console.log(donors) %>
+  <% for(var i=0; i<donors.length; i++) { %>
+    <h1> <%= donors[i].title %> </h1>
+    <p>
+      <%= donors[i].user%>
+    </p>
+    <h3><%= donors[i].content%></h3>
+    <% } %>

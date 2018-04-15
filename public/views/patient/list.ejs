@@ -1,0 +1,10 @@
+
+<h1>Patient List</h1>
+<% console.log(patients) %>
+  <% for(var i=0; i<patients.length; i++) { %>
+    <h1> <%= patients[i].title %> </h1>
+    <p>
+      <%= patients[i].user%>
+    </p>
+    <h3><%= patients[i].content%></h3>
+    <% } %>
